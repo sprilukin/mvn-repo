@@ -35,6 +35,17 @@
         <encoding>UTF-8</encoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <url>https://raw.github.com/sprilukin/mvn-repo/master/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-repo</id>
+            <url>https://raw.github.com/sprilukin/mvn-repo/master/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
         <!-- Libs for test purposes -->
         <dependency>
